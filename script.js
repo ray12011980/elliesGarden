@@ -1,7 +1,7 @@
 // document.write("java link OK");
 const navSlide = () => {
   const burger = document.querySelector(".hamburger");
-  const nav = document.querySelector(".nav-list");
+  const nav = document.querySelector(".main-nav");
 
   burger.addEventListener("click", () => {
     // show/hide main-nav

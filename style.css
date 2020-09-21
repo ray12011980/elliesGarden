@@ -141,6 +141,23 @@ header {
     height: 90vh;
     width: 100vw;
     overflow-x: hidden;
+    transform: translateX(100%);
+    opacity: 0;
+    transition: transform 500ms ease-in, opacity 500ms ease-in;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    height: 100%;
+    background: var(--bg-clr-acc2);
+  }
+  /* .main-nav {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    height: 90vh;
+    width: 100vw;
+    overflow-x: hidden;
   }
 
   .nav-list {
@@ -151,7 +168,7 @@ header {
     transform: translateX(100%);
     opacity: 0;
     transition: transform 500ms ease-in, opacity 500ms ease-in;
-  }
+  } */
 
   .nav-list li {
     border-top: 1px solid rgba(0, 0, 0, 0.2);
